@@ -27,7 +27,7 @@ public class ActiTimeTestValidLogin {
 		
 		
 	}
-	
+	///this methpd is used for soimethkmsd
 	
 	@Test
 	public void testActiTime()
@@ -36,7 +36,7 @@ public class ActiTimeTestValidLogin {
 		
 		String loginTitle = driver.getTitle();
 		Assert.assertEquals(loginTitle, "actiTIME - Login");
-		Reporter.log("The loginPage title is Verified",true);
+		Reporter.log("The loginPage title is Verified and the test script is successful",true);
 		
 	}
 	
